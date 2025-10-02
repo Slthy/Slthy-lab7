@@ -2,18 +2,22 @@ import java.lang.Math;
 
 public class Cat extends Creature {
 
+    // Note, that output should be in (x,y) format as
+    // the plotter expects it in that format.
+
+
     // dir: 0=North, 1=East, 2=South, 3=West.
+    // 
     //
     //
-    //
-    // N (r-1,c+0)
-    // 0
-    // (r+0,c-1) W 3 [ ] 1 E (r+0,c+1)
-    // 2
-    // S (r+1,c+0)
-    //
+    //               N (r-1,c+0)
+    //               0
+    //(r+0,c-1) W 3 [ ]  1 E (r+0,c+1)
+    //               2
+    //               S (r+1,c+0)
     //
     //
+    // 
     // 
 
     private int movesSinceMouseEaten = 1;
@@ -43,25 +47,60 @@ public class Cat extends Creature {
     }
 
     private boolean findClosestMouse() {
-        int targetDist = Integer.MAX_VALUE;
+        int targetDist = Integer.MAX_VALUE; //BUGGGG
+        targetDist = 20;
         boolean mouseFound = false;
+        boolean mouseFound2 = false;
+        int creatureCount = 0;
+
         for (Creature c : city.creatures) {
+            //bug involves Mouse instances
+            if (c instanceof Mouse) System.out.println("\tfindClosestMouse() if statement: "+ mouseInDistance(c));
             if (mouseInDistance(c) != -1 && mouseInDistance(c) < targetDist && (c instanceof Mouse)) {
                 setTargetMouse(c);
                 targetDist = mouseInDistance(c);
                 mouseFound = true;
-            } else 
-                mouseFound = false;
+                mouseFound2 = true;
+            }else mouseFound = false; //BUGGGG
+        }
+
+        if (mouseFound) {
+            return true;
+        } else {
+            if (mouseFound2) {
+                System.out.println("BUG: mouseFound == false even if mouse is in distance.");
+                System.out.println("DEBUG END: FOUND THE FAULT INSIDE findClosestMouse() for-loop, see variable mouseFound");
+                System.exit(0);
+            }
+            setTargetMouse(null);
+            return false;
+        }
+        
+       /*int targetDist = 20;
+       boolean mouseFound = false;
+        for (Creature c : city.creatures) {
+            if (c instanceof Mouse) {
+                int dist = mouseInDistance(c);
+                if (dist != -1 && dist < targetDist) {
+                    setTargetMouse(c);
+                    targetDist = dist;
+                    mouseFound = true;
+                }
+            }
         }
         if (mouseFound) {
             return true;
         } else {
             setTargetMouse(null);
             return false;
-        }
+        }*/
     }
 
+   
+
     private int mouseInDistance(Creature c) {
+        //bug involves Mouse instances
+        if (c instanceof Mouse) System.out.println("\t\t mouseInDistance() value: "+ this.getGridPoint().dist(c.getGridPoint()));
         if (this.getGridPoint().dist(c.getGridPoint()) < 20 && (c instanceof Mouse)) {
             return this.getGridPoint().dist(c.getGridPoint());
         } else {

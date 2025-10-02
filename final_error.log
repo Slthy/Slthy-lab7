@@ -1,0 +1,245 @@
+City, take action(). creature count: 0
+City, take action(). creature count: 1
+		 mouseInDistance() value: 45
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 45
+City, take action(). creature count: 2
+		 mouseInDistance() value: 38
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 38
+City, take action(). creature count: 3
+		 mouseInDistance() value: 46
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 46
+City, take action(). creature count: 4
+		 mouseInDistance() value: 40
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 40
+City, take action(). creature count: 5
+		 mouseInDistance() value: 46
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 46
+0) 73 43 b
+1) 10 71 y
+2) 76 78 y
+3) 43 27 y
+4) 24 34 y
+5) 8 74 y
+done 1
+City, take action(). creature count: 0
+City, take action(). creature count: 1
+		 mouseInDistance() value: 42
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 42
+City, take action(). creature count: 2
+		 mouseInDistance() value: 35
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 35
+City, take action(). creature count: 3
+		 mouseInDistance() value: 45
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 45
+City, take action(). creature count: 4
+		 mouseInDistance() value: 37
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 37
+City, take action(). creature count: 5
+		 mouseInDistance() value: 43
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 43
+0) 74 43 b
+1) 8 71 y
+2) 76 76 y
+3) 43 29 y
+4) 22 34 y
+5) 6 74 y
+done 2
+City, take action(). creature count: 0
+City, take action(). creature count: 1
+		 mouseInDistance() value: 39
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 39
+City, take action(). creature count: 2
+		 mouseInDistance() value: 32
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 32
+City, take action(). creature count: 3
+		 mouseInDistance() value: 44
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 44
+City, take action(). creature count: 4
+		 mouseInDistance() value: 34
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 34
+City, take action(). creature count: 5
+		 mouseInDistance() value: 40
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 40
+0) 75 43 b
+1) 6 71 y
+2) 76 74 y
+3) 43 31 y
+4) 20 34 y
+5) 4 74 y
+done 3
+City, take action(). creature count: 0
+City, take action(). creature count: 1
+		 mouseInDistance() value: 38
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 38
+City, take action(). creature count: 2
+		 mouseInDistance() value: 31
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 31
+City, take action(). creature count: 3
+		 mouseInDistance() value: 41
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 41
+City, take action(). creature count: 4
+		 mouseInDistance() value: 33
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 33
+City, take action(). creature count: 5
+		 mouseInDistance() value: 39
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 39
+0) 74 43 b
+1) 4 71 y
+2) 76 72 y
+3) 43 33 y
+4) 18 34 y
+5) 2 74 y
+done 4
+City, take action(). creature count: 0
+City, take action(). creature count: 1
+		 mouseInDistance() value: 37
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 37
+City, take action(). creature count: 2
+		 mouseInDistance() value: 30
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 30
+City, take action(). creature count: 3
+		 mouseInDistance() value: 38
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 38
+City, take action(). creature count: 4
+		 mouseInDistance() value: 30
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 30
+City, take action(). creature count: 5
+		 mouseInDistance() value: 38
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 38
+0) 74 42 b
+1) 2 71 y
+2) 76 70 y
+3) 43 35 y
+4) 16 34 y
+5) 0 74 y
+done 5
+City, take action(). creature count: 0
+City, take action(). creature count: 1
+		 mouseInDistance() value: 36
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 36
+City, take action(). creature count: 2
+		 mouseInDistance() value: 29
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 29
+City, take action(). creature count: 3
+		 mouseInDistance() value: 35
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 35
+City, take action(). creature count: 4
+		 mouseInDistance() value: 27
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 27
+City, take action(). creature count: 5
+		 mouseInDistance() value: 37
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 37
+0) 74 41 b
+1) 0 71 y
+2) 76 68 y
+3) 43 37 y
+4) 14 34 y
+5) 78 74 y
+done 6
+City, take action(). creature count: 0
+City, take action(). creature count: 1
+		 mouseInDistance() value: 35
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 35
+City, take action(). creature count: 2
+		 mouseInDistance() value: 28
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 28
+City, take action(). creature count: 3
+		 mouseInDistance() value: 32
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 32
+City, take action(). creature count: 4
+		 mouseInDistance() value: 24
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 24
+City, take action(). creature count: 5
+		 mouseInDistance() value: 36
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 36
+0) 74 40 b
+1) 78 71 y
+2) 76 66 y
+3) 43 39 y
+4) 12 34 y
+5) 76 74 y
+done 7
+City, take action(). creature count: 0
+City, take action(). creature count: 1
+		 mouseInDistance() value: 34
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 34
+City, take action(). creature count: 2
+		 mouseInDistance() value: 27
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 27
+City, take action(). creature count: 3
+		 mouseInDistance() value: 33
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 33
+City, take action(). creature count: 4
+		 mouseInDistance() value: 21
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 21
+City, take action(). creature count: 5
+		 mouseInDistance() value: 35
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 35
+0) 74 39 b
+1) 76 71 y
+2) 76 64 y
+3) 43 41 y
+4) 12 36 y
+5) 74 74 y
+done 8
+City, take action(). creature count: 0
+City, take action(). creature count: 1
+		 mouseInDistance() value: 33
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 33
+City, take action(). creature count: 2
+		 mouseInDistance() value: 26
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 26
+City, take action(). creature count: 3
+		 mouseInDistance() value: 36
+	findClosestMouse() if statement: -1
+		 mouseInDistance() value: 36
+City, take action(). creature count: 4
+		 mouseInDistance() value: 18
+	findClosestMouse() if statement: 18
+		 mouseInDistance() value: 18
+		 mouseInDistance() value: 18
+		 mouseInDistance() value: 18
+BUG: mouseFound == false even if mouse is in distance.
+DEBUG END: FOUND THE FAULT INSIDE findClosestMouse() for-loop, see variable mouseFound
