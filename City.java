@@ -138,9 +138,14 @@ public class City{
         } //move everyone forward one step in simulation
 
         //Second, for all cratures ...
-        int creature_count = 0;
+        //int id = 0;
         for(Creature c : creatures){
-            System.out.println("City, take action(). creature count: "+ creature_count++);
+            /*if (id == 0) System.out.println("WIDTH: " + WIDTH + ", WIDTH: " + HEIGHT);
+            if (c instanceof Cat)
+                System.out.println("id: " + id++ + " is a Cat");
+            else
+                System.out.println("id: " + id++ + " is a Mouse");
+            */
             c.takeAction(); 
         }//take some action based on the new positions
 
@@ -159,12 +164,10 @@ public class City{
         addNewCreatures();
 
         //Five, for all creatures
-        int id = 0;
+        //id = 0;
         for(Creature c : creatures){
-            //System.out.println("\n\ncreature");
-            //System.out.println((c instanceof Cat) ? "\n\n )CAT: (" : "\n\n )MOUSE: (");
-
-            System.out.println(id++ + ") " + c);
+            //System.out.println("id: " + id++);
+            System.out.println(c);
         }//print out all creatures
     }
 }
